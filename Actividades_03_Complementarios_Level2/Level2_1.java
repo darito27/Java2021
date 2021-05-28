@@ -19,18 +19,21 @@ public class Level2_1 {
         while (control) {
             System.out.println("Ingrese ciudad Favorita: o z para salir ");
             String ciudad = scan.nextLine();
-            System.out.println(ciudad);
-            if (ciudad == "z") {
+            if (ciudad.equals("z")) {
                 control = false;
             }
-            //else {
+            else {
             ciudades.add(ciudad); 
-            //}
+            }
             
-            System.out.println(ciudades);
         }
         scan.close(); 
-        System.out.println(ciudades);
+
+        for (int i=1; i<=ciudades.size(); i++){
+            System.out.println("#"+ i + " - " +  ciudades.get(i-1));
+
+        }
+        
     }
     
 }
