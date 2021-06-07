@@ -12,7 +12,7 @@ public class Level1_7 {
 
 
     static void pasarAMayuscula() {
-        System.out.println("Introduce una palabra en minusculas: ");
+        System.out.println("Introduce una frase en minusculas: ");
         Scanner scan = new Scanner(System.in);
         String palabraMinuscula = scan.nextLine();
         scan.close();
@@ -20,10 +20,16 @@ public class Level1_7 {
         for (int i = 0; i < caracteres.length; i++) {
             char a = caracteres[i];
             int ascii = a;
-            int ascii2 = ascii - 32;
-            a = (char)ascii2;
-            caracteres[i] = a;
 
+            if (ascii==200){
+                caracteres[i] = a;
+            }
+            else {
+                int ascii2 = ascii - 32;
+                a = (char)ascii2;
+                caracteres[i] = a;
+            }
+            
         }
         caracteres.toString();
         System.out.println("Lo que en Mayúsculas sería: ");

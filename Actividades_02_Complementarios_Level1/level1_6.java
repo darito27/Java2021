@@ -5,11 +5,10 @@ public class Level1_6 {
     
     public static void main(String[] args) {
         ingresarNumeros();
-        System.out.println("-----------");
-        //System.out.println(numeros.get(1));
-                                  
+        System.out.println("-----------");                                 
         
     }
+    
     static ArrayList ingresarNumeros() {
         System.out.println("Ingrese dos Numeros enteros: ");
         Scanner scan = new Scanner(System.in);
