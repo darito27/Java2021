@@ -1,0 +1,6 @@
+Jose,Flores,22-11-1976,30000.30
+Felipe,Gauna,13-05-1988,40000.40
+Carlos,Gonzalez,21-07-1989,50000.50
+Maria,Benitez,15-08-1990,35000.35
+Hector,Fernandez,01-12-1984,45000.45
+Ayelen,Garcia,12-04-1983,48000.48
